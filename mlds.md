@@ -2,6 +2,7 @@
 
 <b>UNDERSTANDING DEEP LEARNING REQUIRES RETHINKING
 GENERALIZATION</b>
+
 1~5 REF: https://arxiv.org/pdf/1611.03530.pdf
 1~5 資料
 - ICLR workshop 對此論文的反對意見：https://openreview.net/pdf?id=rJv6ZgHYg
