@@ -1,5 +1,6 @@
-# MLDS2017FinalProject
+# MLDS2017 FinalProject
 
+這是我們[報告](https://ntumlds.wordpress.com/2017/03/27/r05922018_drliao/)的實驗成果
 
 ### ExperimentOne.ipynb
 你可以在 ExperimentOne.ipynb 中找到
