@@ -18,11 +18,9 @@
 #### ExperimentTwo.ipynb
 而未來在 ExperimentTwo.ipynb 裡
 
-會放上我們第二階段報告的實驗結果
+會放上我們的 future works
 
-預計會多加上 batch size 作為考量
-
-目前實驗正在仔細的規劃中
+預計會在現有的實驗成果上，多加上 batch size 作為考量
 
 ### Expeirments dataset
 我們使用 [MNIST](http://yann.lecun.com/exdb/mnist/)
