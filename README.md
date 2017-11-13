@@ -1,9 +1,9 @@
-# Team r05922018_DrLiao MLDS Final Report
-###### tags: `MLDS`
+# Rethinking Generalization of Deep Learning
+###### tags: `deep learning` `generalization`
 
 ## 主題 Topic
 
-__~~老師常說：「先別管那麼多，硬train一發就對了!」~~__ 
+__~~李宏毅老師常說：「先別管那麼多，硬train一發就對了!」~~__ 
 
 
 <div align='center'>
