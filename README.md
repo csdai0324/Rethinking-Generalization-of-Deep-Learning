@@ -1,8 +1,6 @@
 # Team r05922018_DrLiao MLDS Final Report
 ###### tags: `MLDS`
 
-[TOC]
-
 ## 主題 Topic
 
 __~~老師常說：「先別管那麼多，硬train一發就對了!」~~__ 
