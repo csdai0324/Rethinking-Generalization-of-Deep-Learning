@@ -10,9 +10,6 @@ __~~李宏毅老師常說：「先別管那麼多，硬train一發就對了!」~
     <center>
     <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='https://i.imgur.com/oNFGPCQ.png' padding='5px'></img>
     </center>
-    <center>
-    <a href='https://xkcd.com/1838/'>Image src</a>
-    </center>
 </div>
 自從 AlexNet 在 ILSVRC2012 大放異彩後，開啟了學界業界對深度神經網路高度重視的濫觴。
 深度神經網路被應用到各種領域的 task 中，
@@ -347,7 +344,7 @@ for proportion in gaussian_proportion:
 
 如果依照 Understanding Deep Learning Requires Rethinking Generalization 提出的 Finite sample expressivity 性質中給定的公式，要擬合 MNIST training set 需要 2*60000 + 784 = 120784 個參數 (n=60000, d=784)。我們可以看到，圖四中黃色線代表的神經網路，參數稍少於這個數目，最後成功擬合了數據。因此我們可以說，在 MNIST 的 training set 上，Finite sample expressivity 是成立的！
 
-{%slideshare BrianHuang34/mnist-76914305 %}
+[results @slideshare](https://www.slideshare.net/BrianHuang34/mnist-76914305)
 
 ### Random labels 的 MNIST 實驗結果
 
@@ -358,7 +355,7 @@ for proportion in gaussian_proportion:
 這裡藏著一個值得注意的信號，圖三中兩個網路的準確率幾乎是完全不上升的，與對照組相比，在一樣都只有那麼少參數的情況下，對照組仍然能達到超過 90% 的準確度。
 還記得我們在 section3 discussion 中提出的假設：”DNNs 可能是學習 patterns 再將 noise 以增加 capacity 的方式暴力記憶” 嗎？在對照組中，雖然參數少，但因為學到了某些 data 中的 pattern，因此可以達到一定的準確度，並且有可能是因為參數量不足以完整學習 pattern，才沒有達到 training error = 0%。但在 random label (可以想成全部 data 都是 noise) 的情況下，因為沒有 pattern 可學，所以轉成暴力記憶，卻又因參數不夠，導致訓練失敗。
 
-{%slideshare BrianHuang34/random-labels-mnist %}
+[results @slideshare](https://www.slideshare.net/BrianHuang34/random-labels-mnist)
 
 在圖四到圖八以及圖十三到圖十七中，我們 fix 住網路的層數，只改變每一層神經元個數。
 在圖九到圖十二以及圖十八到圖二十一中，我們 fix 住每一層神經元個數，只改變層數多寡。
@@ -377,13 +374,13 @@ for proportion in gaussian_proportion:
 
 此外，比較圖三、五的神經網路，可以再次應證高瘦的網路比矮胖的網路要好。
 
-{%slideshare BrianHuang34/gaussian-noise-random-inputs-mnist %}
+[results @slideshare](https://www.slideshare.net/BrianHuang34/gaussian-noise-random-inputs-mnist)
 
 為了加強我們的論證，我們也在 cifar10 中加入了 Gaussian noise 來觀察。
 其結果跟在 MNIST 上很相似：同樣的神經網路在面對越高的 noise 程度時收斂越慢。
 而因為 cifar10 的圖片比 MNIST 複雜得多，因此在收斂階段會有比較大的震盪。
 
-{%slideshare BrianHuang34/gaussian-noise-random-inputs-cifar10 %}
+[results @slideshare](https://www.slideshare.net/BrianHuang34/gaussian-noise-random-inputs-cifar10)
 
 下圖是這九個神經網路在 MNIST 中對不同 noise level 的 testing accuracy。可以看到圖中產生了一個巨大的 gap，在全 noise 的情況下，所有架構都沒有能力判別，就算是足夠大的 effective capacity 也找不到合適的 hypothesis，即使它們在訓練時是收斂的。
 而當 noise 與原始資料共存時，noise 越大，testing accuracy 也越低，但還是與全 noise 存在明顯的 accuracy gap。
