@@ -1,5 +1,5 @@
 ## Rethinking Generalization of Deep Learning 
-###### tags: `deep learning` `generalization` 
+###### tags: `deep learning` `generalization` [![HitCount](http://hits.dwyl.com/csdai0324/Rethinking-Generalization-of-Deep-Learning.svg)](http://hits.dwyl.com/csdai0324/Rethinking-Generalization-of-Deep-Learning) 
 
 ## 主題 Topic
 
@@ -424,5 +424,3 @@ for proportion in gaussian_proportion:
 - [no free lunch theorem](https://en.wikipedia.org/wiki/No_free_lunch_theorem)
 - [Quora](https://www.quora.com/Why-is-the-paper-“Understanding-Deep-Learning-required-Rethinking-Generalization“-important)
 - [Medium](https://medium.com/intuitionmachine/rethinking-generalization-in-deep-learning-ec66ed684ace)
-
-[![HitCount](http://hits.dwyl.com/csdai0324/Rethinking-Generalization-of-Deep-Learning.svg)](http://hits.dwyl.com/csdai0324/Rethinking-Generalization-of-Deep-Learning) 
