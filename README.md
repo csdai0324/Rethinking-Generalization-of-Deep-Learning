@@ -1,5 +1,5 @@
-## Rethinking Generalization of Deep Learning
-###### tags: `deep learning` `generalization` [![HitCount](http://hits.dwyl.com/csdai0324/Rethinking-Generalization-of-Deep-Learning.svg)](http://hits.dwyl.com/csdai0324/Rethinking-Generalization-of-Deep-Learning)
+## Rethinking Generalization of Deep Learning [![HitCount](http://hits.dwyl.com/csdai0324/Rethinking-Generalization-of-Deep-Learning.svg)](http://hits.dwyl.com/csdai0324/Rethinking-Generalization-of-Deep-Learning)
+###### tags: `deep learning` `generalization` 
 
 ## 主題 Topic
 
